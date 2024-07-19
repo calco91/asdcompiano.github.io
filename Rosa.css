@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
+
+:root {
+    box-sizing: border-box;
+}
+
+*, :before, :after {
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Khand', sans-serif;
+    background: linear-gradient(yellow, darkgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #1E2A5C;
+
+}
+
+#logo {
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+}
+h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: #1E2A5C;
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1E2A5C;
+    text-align: center;
+}
+h5{
+    text-align: center;
+    font-size: 1.5em;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em;
+}
+.col-sm{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 300px;
+}
+.row-1{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em;
+}
+.col-sm-1{
+    display: flex;
+    height: 400px;
+    width: 300px;
+}
+.card{
+    height: 400px;
+    width: 285px;
+    padding: 0.5em;
+}
+.card-img-top{
+    height: 340px;
+}
+.card-body{
+    padding: 0;
+}
+.card-title{
+    margin-top: 8px;
+}
+#home{
+    margin-top: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+footer{
+    text-align: center;
+    margin: 20px;
+}
+#insta{
+    height: 40px;
+    width: 40px;
+    border-radius: .5em;
+}
