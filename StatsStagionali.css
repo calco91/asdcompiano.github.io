@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
+
 :root {
     box-sizing: border-box;
 }
@@ -11,6 +12,7 @@
     max-width: 1080px;
     margin: 0 auto;
 }
+
 body {
     font-family: 'Khand', sans-serif;
     color: #1E2A5C;
@@ -50,11 +52,18 @@ img {
     height: 80px;
     width: 80px;
 }
-footer{
+
+footer {
     text-align: center;
 }
-#insta{
+
+#insta {
     height: 40px;
     width: 40px;
     border-radius: .5em;
+}
+
+.tornasu {
+    font-size: 30px;
+    text-align: right;
 }
