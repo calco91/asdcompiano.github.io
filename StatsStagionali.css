@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
-@media screen and (min-width: 475px) {
-    article{
-        padding: 0.5rem 1rem;
+@media screen and (max-width: 475px) {
+    div.stat{
+        display: flex;
     }
 }
 :root {
