@@ -52,3 +52,7 @@ footer{
     font-size: 30px;
     text-align: right;
 }
+a {
+    text-decoration: none;
+    color: #1E2A5C;
+}

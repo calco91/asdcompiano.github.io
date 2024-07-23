@@ -33,11 +33,17 @@ a{
     width: 80px;
     margin: 20px;
 }
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 h1{
     font-size: 80px;
     margin-bottom: 20px;
     color: #1E2A5C;
     text-align: center;
+    border-bottom-style: solid;
 }
 h2{
     font-size: 50px;
@@ -94,6 +100,8 @@ h5{
 footer{
     text-align: center;
     margin: 20px;
+    border-top-style: solid;
+    padding-top: 20px;
 }
 #insta{
     height: 40px;

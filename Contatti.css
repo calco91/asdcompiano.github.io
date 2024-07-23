@@ -37,14 +37,17 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 60px;
-    margin: 20px;
+    font-size: 80px;
+    margin: 0;
+    border-bottom-style: solid;
 }
 
 .main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .article {
@@ -61,6 +64,8 @@ p {
 }
 .recapiti{
     font-size: 25px;
+    border-bottom-style: solid;
+    padding-bottom: 37px;
 }
 footer{
     text-align: center;
@@ -73,4 +78,7 @@ footer{
 .tornasu {
     font-size: 30px;
     text-align: right;
+}
+a{
+    text-decoration: none;
 }

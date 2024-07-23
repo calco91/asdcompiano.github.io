@@ -19,11 +19,9 @@ body * + * {
     color: #1E2A5C;
 }
 
-
 .container {
     max-width: 1080px;
     margin: 0 auto;
-
 }
 
 body {
@@ -40,41 +38,20 @@ body {
 }
 
 h1 {
-    margin: 0;
     font-size: 80px;
+    margin: 0;
     color: #1E2A5C;
     text-align: center;
+    border-bottom-style: solid;
 }
-
-.card {
-    border: solid 1px #1E2A5C;
-    border-radius: 5px;
-    width: 18em;
-    height: 20em;
-    background-color: antiquewhite;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-}
-h5{
-    text-align: center;
-    font-size: 2em;
-    margin: -.75em auto;
-}
-.card-img-top{
-    height: 15em;
-    width: 18em;
-    padding: 0.5em;
-    border-radius: .75em;
-}
-.date{
-    text-decoration: none;
+.article{
+    font-size: 30px;
+    text-align: justify;
+    border-bottom-style: solid;
+    padding-bottom: 1.5em;
 }
 footer {
     text-align: center;
-
 }
 
 #insta {
@@ -89,25 +66,4 @@ a{
 a:hover {
     color: red;
     transition: all .3s ease-out;
-}
-.tornasu {
-    font-size: 30px;
-    text-align: right;
-}
-.row{
-    display: flex;
-    justify-content: space-around;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    padding-bottom: 25px;
-}
-.col-sm{
-    justify-content: center;
-    display: flex;
-    align-items: flex-end;
-}
-img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
 }
