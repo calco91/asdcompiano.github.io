@@ -105,6 +105,7 @@ a:hover {
     justify-content: center;
     display: flex;
     align-items: flex-end;
+    padding-top: 1.5em;
 }
 img{
     height: 100%;
