@@ -1,25 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
+
 @media screen and (max-width: 475px) {
-    div.container{
-        display: block;
+    div {
+        display: flex;
     }
 }
-:root{
+
+:root {
     box-sizing: border-box;
 }
-*, :before,:after{
+
+*, :before, :after {
     box-sizing: inherit;
 }
-.container{
+
+body * + * {
+    margin-top: 1.5em;
+    color: #1E2A5C;
+}
+
+.container {
     max-width: 1080px;
     margin: 0 auto;
 }
+
 body {
     font-family: 'Khand', sans-serif;
     color: #1E2A5C;
     background: linear-gradient(yellow, darkgreen);
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+#logo {
+    height: 80px;
+    width: 80px;
 }
 
 h1 {
@@ -29,30 +44,29 @@ h1 {
     color: #1E2A5C;
     text-align: center;
 }
-
-p{
-    border-bottom-style: solid;
+.article{
+    font-size: 30px;
+    text-align: justify;
 }
-#LOGO {
-    height: 80px;
-    width: 80px;
-}
-footer{
+footer {
     text-align: center;
+
 }
-#insta{
+
+#insta {
     height: 40px;
     width: 40px;
     border-radius: .5em;
 }
-.organigramma{
-    font-size: 40px;
+a{
+    text-decoration: none;
+    color: #1E2A5C;
+}
+a:hover {
+    color: red;
+    transition: all .3s ease-out;
 }
 .tornasu {
     font-size: 30px;
     text-align: right;
-}
-a {
-    text-decoration: none;
-    color: #1E2A5C;
 }
