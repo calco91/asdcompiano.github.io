@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
+
 @media screen and (max-width: 475px) {
-    div{
+    div {
         display: flex;
     }
 }
+
 :root {
     box-sizing: border-box;
 }
@@ -31,7 +33,7 @@ body {
     background-attachment: fixed;
 }
 
-img {
+#logo {
     height: 80px;
     width: 80px;
 }
@@ -42,4 +44,63 @@ h1 {
     margin-bottom: 20px;
     color: #1E2A5C;
     text-align: center;
+}
+
+.card {
+    border: solid 1px #1E2A5C;
+    border-radius: 5px;
+    width: 18em;
+    height: 20em;
+    background-color: antiquewhite;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+h5{
+    text-align: center;
+    font-size: 2em;
+    margin: -.75em auto;
+}
+.card-img-top{
+    height: 15em;
+    width: 18em;
+    padding: 0.5em;
+    border-radius: .75em;
+}
+.date{
+    text-decoration: none;
+}
+footer {
+    text-align: center;
+
+}
+
+#insta {
+    height: 40px;
+    width: 40px;
+    border-radius: .5em;
+}
+a{
+    text-decoration: none;
+    color: #1E2A5C;
+}
+a:hover {
+    color: red;
+    transition: all .3s ease-out;
+}
+.tornasu {
+    font-size: 30px;
+    text-align: right;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+
+}
+.col-sm{
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
 }

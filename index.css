@@ -7,6 +7,17 @@
         display: flex;
     }
 }
+@keyframes growshrink {
+    25%,
+    75% {
+        scale: 100%;
+    }
+
+    50% {
+        scale: 200%;
+        color: red;
+    }
+}
 :root {
     box-sizing: border-box;
 }
@@ -83,4 +94,10 @@ a:hover {
         font-size: 16px;
         margin-left: 3px;
     }
+}
+span{
+    display: inline-block;
+    animation-duration: 3s;
+    animation-name: growshrink;
+    animation-iteration-count: infinite;
 }

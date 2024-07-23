@@ -25,7 +25,9 @@ body {
     color: #1E2A5C;
 
 }
-
+a{
+    text-decoration: none;
+}
 #logo {
     height: 80px;
     width: 80px;
