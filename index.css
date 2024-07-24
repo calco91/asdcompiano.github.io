@@ -27,20 +27,21 @@
 }
 :root {
     box-sizing: border-box;
+
 }
 
 *, :before, :after {
     box-sizing: inherit;
 }
 
-
 body {
-    font-family: 'Khand', sans-serif;
-    background-image: url("campo.png");
+background-image: url("zyro-image.png");
     background-size: cover;
+    font-family: 'Khand', sans-serif;
 }
 
 .container {
+
     max-width: 1080px;
     margin: 0 auto;
 }
@@ -66,45 +67,32 @@ a {
     border-radius: .5em;
     color: white;
 }
-
+.box-title{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
 h1 {
-    margin-left: auto;
     font-size: 5em;
     color: #1E2A5C;
-    border-bottom: solid #1E2A5C;
-    text-align: right;
+    text-align: center;
+    margin-top: 0;
 }
 
 img {
     display: flex;
-    height: 25em;
-    width: 25em;
-    margin-left: auto;
-    margin-top: 5em;
+    height: 20em;
+    width: 20em;
 }
 
 a:hover {
     color: yellow;
     transition: all .3s ease-out;
 }
-/*@media screen and (min-width: 320px) and (max-width: 768px){*/
-/*    :root{*/
-/*        width: 710px;*/
-/*    }*/
-/*    h1{*/
-/*        text-align: center;*/
-/*    }*/
-/*    img{*/
-/*        margin: 3em 8em 1.5em 8.8em;*/
-/*    }*/
-/*    li {*/
-/*        font-size: 16px;*/
-/*        margin-left: 3px;*/
-/*    }*/
+
+/*span{*/
+/*    display: inline-block;*/
+/*    animation-duration: 3s;*/
+/*    animation-name: growshrink;*/
+/*    animation-iteration-count: infinite;*/
 /*}*/
-span{
-    display: inline-block;
-    animation-duration: 3s;
-    animation-name: growshrink;
-    animation-iteration-count: infinite;
-}
