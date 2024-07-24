@@ -45,7 +45,12 @@ background-image: url("zyro-image.png");
     max-width: 1080px;
     margin: 0 auto;
 }
-
+footer{
+    margin-top: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 ul {
     display: flex;
     list-style-type: none;
