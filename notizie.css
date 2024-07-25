@@ -1,13 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
+
 @media screen and (max-width: 475px) {
     .container {
         display: flex;
         flex-direction: column;
     }
-    .row{
+
+    .row {
         display: flex;
         flex-direction: column;
 
+    }
+}
+@keyframes growshrink {
+    25%,
+    75% {
+        scale: 100%;
+    }
+
+    50% {
+        scale: 200%;
+        color: red;
     }
 }
 
@@ -63,20 +76,24 @@ h1 {
     justify-content: flex-start;
     align-content: center;
 }
-h5{
+
+h5 {
     text-align: center;
     font-size: 2em;
     margin: -.75em auto;
 }
-.card-img-top{
+
+.card-img-top {
     height: 15em;
     width: 18em;
     padding: 0.5em;
     border-radius: .75em;
 }
-.date{
+
+.date {
     text-decoration: none;
 }
+
 footer {
     text-align: center;
 
@@ -87,33 +104,46 @@ footer {
     width: 40px;
     border-radius: .5em;
 }
-a{
+
+a {
     text-decoration: none;
     color: #1E2A5C;
 }
+
 a:hover {
     color: red;
     transition: all .3s ease-out;
 }
+
 .tornasu {
     font-size: 30px;
     text-align: right;
 }
-.row{
+
+.row {
     display: flex;
     justify-content: space-around;
     border-top-style: solid;
     border-bottom-style: solid;
     padding-bottom: 25px;
 }
-.col-sm{
+
+.col-sm {
     justify-content: center;
     display: flex;
     align-items: flex-end;
     padding-top: 1.5em;
 }
-img{
+
+img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+span {
+    display: inline-block;
+    animation-duration: 3s;
+    animation-name: growshrink;
+    animation-iteration-count: infinite;
 }

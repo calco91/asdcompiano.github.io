@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
 
 @media screen and (max-width: 475px) {
-    div {
+    .article {
         display: flex;
+        flex-direction: column;
     }
 }
 
@@ -67,4 +68,19 @@ article{
     padding-top: 1.5em;
     border-bottom-style: solid;
     margin-bottom: 1.5em;
+}
+footer{
+    text-align: center;
+}
+#insta{
+    height: 40px;
+    width: 40px;
+    border-radius: .5em;
+}
+.tornasu {
+    font-size: 30px;
+    text-align: right;
+}
+a{
+    text-decoration: none;
 }

@@ -109,9 +109,9 @@ a:hover {
     transition: all .3s ease-out;
 }
 
-/*span{*/
-/*    display: inline-block;*/
-/*    animation-duration: 3s;*/
-/*    animation-name: growshrink;*/
-/*    animation-iteration-count: infinite;*/
-/*}*/
+span{
+    display: inline-block;
+    animation-duration: 3s;
+    animation-name: growshrink;
+    animation-iteration-count: infinite;
+}
