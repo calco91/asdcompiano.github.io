@@ -108,7 +108,6 @@ a:hover {
     color: yellow;
     transition: all .3s ease-out;
 }
-
 span{
     display: inline-block;
     animation-duration: 3s;
