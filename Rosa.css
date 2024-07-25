@@ -2,6 +2,12 @@
 @media screen and (max-width: 475px) {
     div.rosa{
         display: flex;
+        flex-direction: column;
+    }
+    .row-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 :root {

@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
 @media screen and (max-width: 475px) {
     div.container{
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 }
 :root{
@@ -23,7 +24,7 @@ body {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 60px;
     margin-top: -20px;
     margin-bottom: 20px;
     color: #1E2A5C;
