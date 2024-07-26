@@ -43,8 +43,7 @@ h1 {
     text-align: left;
 }
 .article{
-    font-size: 30px;
-    text-align: justify;
+
 }
 footer {
     text-align: center;
@@ -64,11 +63,12 @@ a:hover {
     transition: all .3s ease-out;
 }
 article{
-    padding-top: 1.5em;
+    font-size: 30px;
+    text-align: justify;
     border-bottom-style: solid;
-    margin-bottom: 1.5em;
 }
 footer{
+    margin-top: 1.5em;
     text-align: center;
 }
 #insta{
