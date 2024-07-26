@@ -25,6 +25,11 @@ h2{
     margin-bottom: 20px;
     color: #1E2A5C;
     text-align: center;
+    border-bottom-style: solid;
+}
+.classifica{
+    border-bottom-style: solid;
+    margin-bottom: .5em;
 }
 #classifica {
     font-size: 30px;

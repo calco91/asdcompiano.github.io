@@ -37,10 +37,11 @@ p{
     text-align: justify;
 }
 footer {
-    margin-top: 270px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    border-top-style: solid;
+    padding-top: 1.5em;
 }
 #insta{
     height: 40px;

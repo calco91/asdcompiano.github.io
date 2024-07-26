@@ -31,6 +31,7 @@ h1 {
     margin-bottom: 20px;
     color: #1E2A5C;
     text-align: center;
+    border-bottom-style: solid;
 }
 
 table {
@@ -40,7 +41,10 @@ table {
     display: flex;
     justify-content: center;
 }
-
+.stat{
+    border-bottom-style: solid;
+    margin-bottom: 0.5em;
+}
 th {
     padding-right: 10px;
     padding-left: 10px;
