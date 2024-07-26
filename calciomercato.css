@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 1024px) {
     .article {
         display: flex;
         flex-direction: column;
@@ -30,7 +30,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 #logo {
     height: 80px;
     width: 80px;
