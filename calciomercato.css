@@ -22,7 +22,11 @@ body * + * {
     max-width: 1080px;
     margin: 0 auto;
 }
-
+#spero{
+    display: flex;
+    width: 350px;
+    height: 350px;
+}
 body {
     font-family: 'Khand', sans-serif;
     color: #1E2A5C;
@@ -41,9 +45,7 @@ h1 {
     color: #1E2A5C;
     text-align: left;
 }
-.article{
 
-}
 footer {
     text-align: center;
 }
