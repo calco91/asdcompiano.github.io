@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
 @media screen and (max-width: 1024px) {
-    div.partite{
+    .container {
         display: flex;
+        flex-direction: column;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+
     }
 }
+
 :root {
     box-sizing: border-box;
 }
@@ -12,9 +20,16 @@
     box-sizing: inherit;
 }
 
+body * + * {
+    margin-top: 1.5em;
+    color: #1E2A5C;
+}
+
+
 .container {
     max-width: 1080px;
     margin: 0 auto;
+
 }
 
 body {
@@ -25,38 +40,21 @@ body {
     background-attachment: fixed;
 }
 
-#risultati {
-    display: flex;
-    border-collapse: collapse;
-    justify-content: center;
-    font-size: 30px;
+#logo {
+    height: 80px;
+    width: 80px;
 }
 
 h1 {
-    font-size: 60px;
-    margin-bottom: 20px;
+    font-size: 40px;
+    margin: 0;
     color: #1E2A5C;
-    text-align: center;
-    border-bottom-style: solid;
-}
-
-
-#risultati th {
-    text-align: center;
-    padding-left: 180px;
-    padding-right: 180px;
-}
-
-
-td {
-    border: 2px solid #1E2A5C;
     text-align: left;
 }
-
-img {
-    justify-content: left;
-    height: 80px;
-    width: 80px;
+article{
+    font-size: 30px;
+    text-align: justify;
+    border-bottom-style: solid;
 }
 
 footer {
@@ -68,11 +66,11 @@ footer {
     width: 40px;
     border-radius: .5em;
 }
+a{
+    text-decoration: none;
+    color: #1E2A5C;
+}
 .tornasu {
     font-size: 30px;
     text-align: right;
-}
-a {
-    text-decoration: none;
-    color: #1E2A5C;
 }
