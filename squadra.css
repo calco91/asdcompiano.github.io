@@ -75,10 +75,14 @@ a{
     text-align: right;
 }
 img{
-    display: flex;
     height: 300px;
     width: 580px;
 }
 .in2{
     padding-bottom: 0.5em;
+}
+.inizio{
+    display: flex;
+    flex-direction: column;
+
 }
