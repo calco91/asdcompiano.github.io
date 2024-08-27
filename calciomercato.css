@@ -27,6 +27,11 @@ body * + * {
     width: 350px;
     height: 350px;
 }
+#eddy{
+    display: flex;
+    width: 350px;
+    height: 350px;
+}
 body {
     font-family: 'Khand', sans-serif;
     color: #1E2A5C;
@@ -85,6 +90,10 @@ a{
     text-decoration: none;
 }
 .spero{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.eddy{
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }

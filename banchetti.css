@@ -43,6 +43,38 @@ footer {
     border-top-style: solid;
     padding-top: 1.5em;
 }
+
+.card {
+    border: solid 1px #1E2A5C;
+    border-radius: 5px;
+    width: 18em;
+    height: 20em;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+h5 {
+    text-align: center;
+    font-size: 2em;
+    margin: -.75em auto;
+}
+
+.card-img-top {
+    height: 15em;
+    width: 18em;
+    padding: 0.5em;
+    border-radius: .75em;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
 #insta{
     height: 40px;
     width: 40px;
