@@ -40,8 +40,18 @@ footer {
     justify-content: center;
 }
 
-
-
+h2{
+    text-align: center;
+}
+.partite{
+    font-size: 25px;
+    border-bottom: solid;
+    padding-bottom: 0.5em;
+}
+a:hover {
+    color: red;
+    transition: all .3s ease-out;
+}
 
 #insta{
     height: 40px;
