@@ -6,7 +6,6 @@
 
 }
 body * + * {
-    margin-top: 1.5em;
     color: #1E2A5C;
 }
 *, :before, :after {
@@ -62,12 +61,17 @@ h5 {
     font-size: 2em;
     margin: -.75em auto;
 }
-
+.candidati{
+    padding-bottom: 1.5em;
+}
 .card-img-top {
     height: 15em;
     width: 18em;
     padding: 0.5em;
     border-radius: .75em;
+}
+.card-body{
+    font-size: 20px;
 }
 .row{
     display: flex;
