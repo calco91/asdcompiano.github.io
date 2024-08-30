@@ -97,3 +97,12 @@ a{
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
+.filo{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+#filo{
+    display: flex;
+    width: 350px;
+    height: 350px;
+}
