@@ -5,42 +5,42 @@
     box-sizing: border-box;
 
 }
+
 body * + * {
     color: #1E2A5C;
 }
+
 *, :before, :after {
     box-sizing: inherit;
 }
+
 .container {
     max-width: 1080px;
     margin: 0 auto;
 }
+
 img {
     height: 80px;
     width: 80px;
 }
+
 h1 {
     text-align: center;
     font-size: 60px;
     margin: 0;
     border-bottom-style: solid;
 }
+
 body {
     font-family: 'Khand', sans-serif;
     background: linear-gradient(yellow, darkgreen);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-p{
+
+p {
     font-size: 30px;
     text-align: justify;
-}
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border-top-style: solid;
-    padding-top: 1.5em;
 }
 
 .card {
@@ -61,33 +61,46 @@ h5 {
     font-size: 2em;
     margin: -.75em auto;
 }
-.candidati{
+
+.candidati {
     padding-bottom: 1.5em;
 }
+
 .card-img-top {
+    display: flex;
     height: 15em;
     width: 18em;
     padding: 0.5em;
     border-radius: .75em;
 }
-.card-body{
-    font-size: 20px;
-}
-.row{
+
+.row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
 }
-#insta{
+
+.col-sm{
+    padding: 0.5em;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top-style: solid;
+    padding-top: 1.5em;
+}
+
+#insta {
     height: 40px;
     width: 40px;
     border-radius: .5em;
 }
+
 .tornasu {
     font-size: 30px;
     text-align: right;
 }
-a{
+
+a {
     text-decoration: none;
 }
