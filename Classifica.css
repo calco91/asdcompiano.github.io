@@ -20,12 +20,12 @@ body {
     font-family: 'Khand', sans-serif;
     color: #1E2A5C;
 }
-h2{
-    font-size: 60px;
-    margin-bottom: 20px;
-    color: #1E2A5C;
+h1 {
     text-align: center;
+    font-size: 60px;
+    padding: 0.5em 0;
     border-bottom-style: solid;
+    margin: 0;
 }
 .classifica{
     border-bottom-style: solid;

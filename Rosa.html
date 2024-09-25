@@ -8,17 +8,157 @@
     <link rel="stylesheet" href="Rosa.css">
     <title>La Rosa 2024/25</title>
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
+
+    @media screen and (max-width: 1440px) {
+        div.rosa {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .row-1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .col-sm {
+            margin: 0.5em;
+        }
+        .col-sm-1{
+            margin: 0.5em;
+        }
+    }
+
+    :root {
+        box-sizing: border-box;
+    }
+
+    *, :before, :after {
+        box-sizing: inherit;
+    }
+
+    .container {
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+
+    body {
+        font-family: 'Khand', sans-serif;
+        background: linear-gradient(yellow, darkgreen);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: #1E2A5C;
+
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #logo {
+        height: 80px;
+        width: 80px;
+        margin: 20px;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    h2 {
+        font-size: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #1E2A5C;
+        text-align: center;
+    }
+
+    h5 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-around;
+        padding: 0.5em;
+    }
+
+    .col-sm {
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        width: 300px;
+    }
+
+    .row-1 {
+        display: flex;
+        justify-content: space-around;
+        padding: 0.5em;
+    }
+
+    .col-sm-1 {
+        display: flex;
+        height: 400px;
+        width: 300px;
+    }
+
+    .card {
+        height: 400px;
+        width: 285px;
+        padding: 0.5em;
+    }
+
+    .card-img-top {
+        height: 340px;
+    }
+
+    .card-body {
+        padding: 0;
+    }
+
+    .card-title {
+        margin-top: 8px;
+    }
+
+    #home {
+        margin-top: 20px;
+        height: 80px;
+        width: 80px;
+    }
+
+    footer {
+        text-align: center;
+        margin: 20px;
+        border-top-style: solid;
+        padding-top: 20px;
+    }
+
+    #insta {
+        height: 40px;
+        width: 40px;
+        border-radius: .5em;
+    }
+
+    .tornasu {
+        font-size: 30px;
+        text-align: right;
+    }
+</style>
 <body>
 <div class="container">
     <a href="index.html"><img src="LOGO.png" alt="logo" id="logo"></a>
     <div class="rosa">
-        <h1>LA ROSA 2024/25</h1>
         <div class="allenatori">
             <h2>ALLENATORI</h2>
             <div class="row">
                 <div class="col-sm">
                     <div class="card">
-                        <img src=Simo.jpg class="card-img-top" alt="...">
+                        <img src=simo.jpg class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Simone Depietri (Allenatore)</h5>
                         </div>
@@ -26,7 +166,7 @@
                 </div>
                 <div class="col-sm">
                     <div class="card">
-                        <img src=Cecio.jpg class="card-img-top" alt="...">
+                        <img src=cecio.jpg class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Matteo Ruggeri (Vice)</h5>
                         </div>

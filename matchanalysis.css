@@ -23,8 +23,9 @@ img {
 h1 {
     text-align: center;
     font-size: 60px;
-    margin: 0;
+    padding: 0.5em 0;
     border-bottom-style: solid;
+    margin: 0;
 }
 body {
     font-family: 'Khand', sans-serif;

@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1440px) {
     h1 {
         display: flex;
     }
 
     .box-title {
         display: flex;
+        flex-wrap: wrap;
     }
 
     .menu {
@@ -13,14 +14,18 @@
     }
 
     ul {
-        justify-content: flex-start;
+        flex-wrap: wrap;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
     li {
         display: flex;
         justify-content: space-between;
     }
+   body{
+       background-repeat: no-repeat;
+
+   };
 }
 @keyframes growshrink {
     25%,
@@ -84,6 +89,7 @@ a {
 }
 
 .box-title {
+    padding-top: 1.5em;
     display: flex;
     justify-content: center;
 }
