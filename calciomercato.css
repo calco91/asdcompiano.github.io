@@ -27,6 +27,11 @@ body * + * {
     width: 350px;
     height: 350px;
 }
+#cibei{
+    display: flex;
+    width: 350px;
+    height: 350px;
+}
 #eddy{
     display: flex;
     width: 350px;
@@ -105,4 +110,8 @@ a{
     display: flex;
     width: 350px;
     height: 350px;
+}
+.cibei{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
